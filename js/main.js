@@ -18,7 +18,7 @@ function tabs() {
             removeCurrentContent.classList.remove("current");
         }
 
-        var tabId = $(this).attr('data-tab');
+        var tabId = $(this).attr('role');
         $("."+tabId).addClass('current');
         
         e.currentTarget.classList.add("current");
