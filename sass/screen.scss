@@ -62,6 +62,9 @@ $breakpoint-xlarge: 1200px;
     }
     p {
         line-height: 1.4;
-        margin-bottom: 15px
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
