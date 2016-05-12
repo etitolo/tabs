@@ -39,3 +39,20 @@ header {
     text-align: center;
     font-size: 1.5rem
 }
+
+.tabContent {
+    overflow: hidden;
+    .current {
+        animation-name: fadeIn;
+        animation-duration: .5s;
+    }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
